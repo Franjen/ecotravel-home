@@ -1,0 +1,31 @@
+:root {
+
+    /*======== COLORES ========*/
+
+    --primary: #2E7D32;
+
+    --primary-dark: #1B5E20;
+
+    --secondary: #29B6F6;
+
+    --accent: #FFC107;
+
+    --light: #F8FAFC;
+
+    --white: #FFFFFF;
+
+    --dark: #263238;
+
+    --gray: #757575;
+
+    --shadow: 0 8px 25px rgba(0, 0, 0, .12);
+
+    --radius: 15px;
+
+    --transition: .35s ease;
+
+    /*======== TIPOGRAFÍA ========*/
+
+    --font: 'Poppins', sans-serif;
+
+}
