@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { FaLeaf, FaBars, FaTimes } from "react-icons/fa";
 
-import "../../styles/navbar.css";
+import "../styles/navbar.css";
 
-import menu from "../../data/menu";
+import menu from "../data/menu";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);

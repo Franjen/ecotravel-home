@@ -1,4 +1,4 @@
-import "../../styles/hero.css";
+import "../styles/hero.css";
 import { FaMapMarkedAlt, FaUsers, FaLeaf } from "react-icons/fa";
 
 function Hero() {
@@ -41,7 +41,8 @@ function Hero() {
 
                 </div>
 
-                <div className="hero-cards">
+                <div className="hero-cards"
+                    data-aos="fade-left">
 
                     <div className="card">
 

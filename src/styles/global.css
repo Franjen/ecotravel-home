@@ -121,3 +121,60 @@ html {
     scroll-behavior: smooth;
 
 }
+
+/* ============================= */
+/*        RESPONSIVE             */
+/* ============================= */
+
+@media (max-width: 1200px) {
+    section {
+        padding: 80px 6%;
+    }
+
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 70px 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 60px 5%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 50px 20px;
+    }
+
+    .btn,
+    .btn-outline {
+        width: 100%;
+    }
+}

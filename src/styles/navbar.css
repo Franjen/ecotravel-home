@@ -157,3 +157,59 @@
     }
 
 }
+
+/* ============================= */
+/* RESPONSIVE NAVBAR             */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    .header {
+        padding: 15px 0;
+    }
+
+    .logo h2 {
+        font-size: 1.4rem;
+    }
+
+    .logo svg {
+        font-size: 1.5rem;
+    }
+
+    .nav {
+
+        width: 100%;
+
+        right: -100%;
+
+        top: 70px;
+
+        padding: 50px;
+
+        text-align: center;
+
+    }
+
+    .nav a {
+
+        font-size: 1.1rem;
+
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .logo h2 {
+
+        font-size: 1.2rem;
+
+    }
+
+    .menu-mobile {
+
+        font-size: 1.5rem;
+
+    }
+
+}

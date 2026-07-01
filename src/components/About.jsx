@@ -1,6 +1,6 @@
-import "../../styles/about.css";
+import "../styles/about.css";
 
-import aboutImage from "../../assets/images/about.jpg";
+import aboutImage from "../assets/images/about.jpg";
 
 import {
     FaLeaf,
@@ -15,7 +15,8 @@ function About() {
 
             <div className="container about-container">
 
-                <div className="about-image">
+                <div className="about-image"
+                    data-aos="zoom-in">
 
                     <img
                         src={aboutImage}
@@ -24,7 +25,8 @@ function About() {
 
                 </div>
 
-                <div className="about-content">
+                <div className="about-content"
+                    data-aos="fade-left">
 
                     <span className="section-tag">
                         SOBRE NOSOTROS

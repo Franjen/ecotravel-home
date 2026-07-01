@@ -1,4 +1,4 @@
-import "../../styles/footer.css";
+import "../styles/footer.css";
 
 import {
     FaFacebookF,
@@ -15,7 +15,8 @@ function Footer() {
     return (
         <footer className="footer" id="footer">
 
-            <div className="container footer-container">
+            <div className="container footer-container"
+                data-aos="fade-up">
 
                 {/* Columna 1 */}
 
