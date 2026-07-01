@@ -9,7 +9,8 @@ function Hero() {
 
             <div className="container hero-container">
 
-                <div className="hero-content">
+                <div className="hero-content"
+                    data-aos="fade-right">
 
                     <span className="hero-tag">
                         🌿 Turismo Responsable en Ecuador
