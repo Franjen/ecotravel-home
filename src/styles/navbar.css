@@ -16,13 +16,16 @@
 
 }
 
+
 .header.active {
 
     background: white;
 
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .10);
 
 }
+
+
 
 .navbar {
 
@@ -34,27 +37,37 @@
 
 }
 
+
+
 .logo {
 
     display: flex;
 
     align-items: center;
 
-    gap: 10px;
+    gap: 12px;
 
     color: var(--primary);
 
-    font-size: 1.5rem;
-
-    font-weight: 700;
-
 }
+
+
 
 .logo svg {
 
     font-size: 2rem;
 
 }
+
+
+
+.logo h2 {
+
+    font-size: 1.6rem;
+
+}
+
+
 
 .nav {
 
@@ -64,21 +77,27 @@
 
 }
 
+
+
 .nav a {
 
     font-weight: 600;
 
-    transition: .3s;
-
     position: relative;
 
+    transition: .3s;
+
 }
+
+
 
 .nav a:hover {
 
     color: var(--primary);
 
 }
+
+
 
 .nav a::after {
 
@@ -88,7 +107,7 @@
 
     left: 0;
 
-    bottom: -5px;
+    bottom: -7px;
 
     width: 0;
 
@@ -100,49 +119,90 @@
 
 }
 
+
+
 .nav a:hover::after {
 
     width: 100%;
 
 }
 
+
+
 .menu-mobile {
 
     display: none;
 
-    font-size: 1.7rem;
-
-    cursor: pointer;
+    background: none;
 
     color: var(--primary);
 
+    font-size: 1.8rem;
+
 }
+
+
+
+/* TABLET */
 
 @media(max-width:900px) {
 
+
+    .menu-mobile {
+
+        display: block;
+
+        z-index: 1001;
+
+    }
+
+
+
     .nav {
+
 
         position: fixed;
 
-        top: 80px;
+
+        top: 0;
+
 
         right: -100%;
 
-        width: 260px;
+
+        width: 300px;
+
 
         height: 100vh;
 
+
         background: white;
+
+
+        display: flex;
+
 
         flex-direction: column;
 
-        padding: 40px;
+
+        justify-content: center;
+
+
+        align-items: center;
+
+
+        gap: 35px;
+
 
         transition: .4s;
 
-        box-shadow: -5px 0 20px rgba(0, 0, 0, .1);
+
+        box-shadow: -10px 0 30px rgba(0, 0, 0, .15);
+
 
     }
+
+
 
     .nav.active {
 
@@ -150,79 +210,51 @@
 
     }
 
-    .menu-mobile {
 
-        display: block;
-
-    }
-
-}
-
-/* ============================= */
-/* RESPONSIVE NAVBAR             */
-/* ============================= */
-
-@media (max-width: 768px) {
-
-    .header {
-        padding: 15px 0;
-    }
-
-    .logo h2 {
-        font-size: 1.4rem;
-    }
-
-    .logo svg {
-        font-size: 1.5rem;
-    }
-
-    .nav {
-
-        width: 100%;
-
-        right: -100%;
-
-        top: 70px;
-
-        padding: 50px;
-
-        text-align: center;
-
-    }
 
     .nav a {
-
-        font-size: 1.1rem;
-
-    }
-
-}
-
-@media (max-width:480px) {
-
-    .logo h2 {
 
         font-size: 1.2rem;
 
     }
 
-    .menu-mobile {
+
+}
+
+
+
+/* CELULAR */
+
+@media(max-width:576px) {
+
+
+    .header {
+
+        padding: 15px 0;
+
+    }
+
+
+    .logo h2 {
+
+        font-size: 1.3rem;
+
+    }
+
+
+    .logo svg {
 
         font-size: 1.5rem;
 
     }
 
-}
 
-.nav a:focus-visible,
-.btn:focus-visible,
-.btn-outline:focus-visible,
-.menu-mobile:focus-visible {
 
-    outline: 3px solid var(--accent);
+    .nav {
 
-    outline-offset: 4px;
+        width: 100%;
 
-    border-radius: 8px;
+    }
+
 
 }

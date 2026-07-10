@@ -45,10 +45,15 @@ function Navbar() {
                 </nav>
 
                 <button
+
                     className="menu-mobile"
-                    aria-label="Abrir menú"
+
+                    aria-label="Abrir menú de navegación"
+
                     onClick={() => setMenuOpen(!menuOpen)}
+
                 >
+
                     {menuOpen ? <FaTimes /> : <FaBars />}
                 </button>
 
