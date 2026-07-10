@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+
+<circle
+cx="60"
+cy="60"
+r="58"
+fill="#2E7D32"/>
+
+<path
+fill="white"
+d="M82 33
+C65 36 48 47 42 63
+C38 74 40 86 52 93
+C65 100 82 94 89 79
+C96 63 93 46 82 33Z"/>
+
+<path
+stroke="#2E7D32"
+stroke-width="4"
+fill="none"
+d="M48 78
+C58 68 68 57 82 43"/>
+
+</svg>
