@@ -213,3 +213,16 @@
     }
 
 }
+
+.nav a:focus-visible,
+.btn:focus-visible,
+.btn-outline:focus-visible,
+.menu-mobile:focus-visible {
+
+    outline: 3px solid var(--accent);
+
+    outline-offset: 4px;
+
+    border-radius: 8px;
+
+}

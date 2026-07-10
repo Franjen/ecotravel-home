@@ -29,13 +29,19 @@ function Hero() {
 
                     <div className="hero-buttons">
 
-                        <button className="btn">
+                        <a
+                            href="#destinos"
+                            className="btn"
+                        >
                             Explorar Destinos
-                        </button>
+                        </a>
 
-                        <button className="btn-outline">
+                        <a
+                            href="#about"
+                            className="btn-outline"
+                        >
                             Conocer Más
-                        </button>
+                        </a>
 
                     </div>
 
