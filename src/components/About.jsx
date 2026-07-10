@@ -21,6 +21,7 @@ function About() {
                     <img
                         src={aboutImage}
                         alt="Turismo sostenible en Ecuador"
+                        loading="lazy"
                     />
 
                 </div>

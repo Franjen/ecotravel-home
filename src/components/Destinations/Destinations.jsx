@@ -26,12 +26,16 @@ function Destinations() {
                 <div className="destinations-grid">
 
                     {destinations.map((destination) => (
+
                         <CardDestination
                             key={destination.id}
                             image={destination.image}
                             title={destination.title}
                             description={destination.description}
+                            latitude={destination.latitude}
+                            longitude={destination.longitude}
                         />
+
                     ))}
 
                 </div>

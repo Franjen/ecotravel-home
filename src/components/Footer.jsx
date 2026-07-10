@@ -105,19 +105,31 @@ function Footer() {
 
                     <div className="social-icons">
 
-                        <a href="#">
+                        <a
+                            href="#"
+                            aria-label="Facebook"
+                        >
                             <FaFacebookF />
                         </a>
 
-                        <a href="#">
+                        <a
+                            href="#"
+                            aria-label="Instagram"
+                        >
                             <FaInstagram />
                         </a>
 
-                        <a href="#">
+                        <a
+                            href="#"
+                            aria-label="Twitter"
+                        >
                             <FaTwitter />
                         </a>
 
-                        <a href="#">
+                        <a
+                            href="#"
+                            aria-label="YouTube"
+                        >
                             <FaYoutube />
                         </a>
 

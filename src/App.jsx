@@ -3,11 +3,13 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import ScrollProgress from "./components/ScrollProgress/ScrollProgress";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Footer from "./components/Footer";
 import Destinations from "./components/Destinations/Destinations";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -24,15 +26,27 @@ function App() {
     });
 
   }, []);
+
   return (
+
     <>
+
+      <ScrollProgress />
+
       <Navbar />
+
       <Hero />
+
       <About />
+
       <Destinations />
+
       <Footer />
+
     </>
+
   );
+
 }
 
 export default App;
